@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galleries | Photographer Platform (Mobile)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="../_shared/admin-ui.css">
+</head>
+<body>
+  <div class="mobile-shell">
+    <header class="mobile-topbar">
+      <button class="icon-button"><span class="material-icons-outlined">menu</span></button>
+      <div class="page-title" style="margin: 0; font-size: 18px;">Galleries</div>
+      <button class="icon-button"><span class="material-icons-outlined">notifications</span></button>
+    </header>
+
+    <main class="mobile-content">
+      <div class="page-subtitle" style="margin-bottom: var(--spacing-md);">Delivery and proofing</div>
+<div class="filter-bar">
+  <div class="search-field">
+    <span class="material-icons-outlined search-icon">search</span>
+    <input class="search-input" placeholder="Search Galleries...">
+  </div>
+  <div style="min-width: 160px;">
+    <select class="select-input"><option>Status</option><option>Active</option><option>Draft</option></select>
+  </div>
+  <div style="min-width: 160px;">
+    <select class="select-input"><option>Owner</option><option>Me</option><option>Team</option></select>
+  </div>
+</div>
+
+<div class="mat-card">
+  <table class="mat-table">
+    <thead>
+      <tr>
+        <th>Gallery</th>
+                <th>Status</th>
+                <th>Updated</th>
+                <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+                <td><div class="user-cell"><div class="avatar">Ha</div><div><div>Harbor Wedding Gallery</div><div class="page-subtitle">Updated today</div></div></div></td>
+                <td><span class="chip chip--success">Active</span></td>
+                <td class="page-subtitle">2 hours ago</td>
+                <td><button class="icon-button"><span class="material-icons-outlined">more_vert</span></button></td>
+              </tr>
+<tr>
+                <td><div class="user-cell"><div class="avatar">AC</div><div><div>Autumn Collection</div><div class="page-subtitle">Updated yesterday</div></div></div></td>
+                <td><span class="chip chip--warning">Pending</span></td>
+                <td class="page-subtitle">Yesterday</td>
+                <td><button class="icon-button"><span class="material-icons-outlined">more_vert</span></button></td>
+              </tr>
+    </tbody>
+  </table>
+  <div class="pagination">
+    <div class="pagination__info">1-2 of 24</div>
+    <div class="pagination__controls">
+      <button class="icon-button" disabled><span class="material-icons-outlined">chevron_left</span></button>
+      <button class="icon-button"><span class="material-icons-outlined">chevron_right</span></button>
+    </div>
+  </div>
+</div>
+    </main>
+
+    <nav class="mobile-nav">
+<div class="mobile-nav__item"><span class="material-icons-outlined">dashboard</span>Home</div>
+<div class="mobile-nav__item"><span class="material-icons-outlined">photo_library</span>Projects</div>
+<div class="mobile-nav__item mobile-nav__item--active"><span class="material-icons-outlined">collections</span>Galleries</div>
+<div class="mobile-nav__item"><span class="material-icons-outlined">people</span>Clients</div>
+    </nav>
+  </div>
+</body>
+</html>

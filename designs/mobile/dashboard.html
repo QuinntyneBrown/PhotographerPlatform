@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | Photographer Platform (Mobile)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="../_shared/admin-ui.css">
+</head>
+<body>
+  <div class="mobile-shell">
+    <header class="mobile-topbar">
+      <button class="icon-button"><span class="material-icons-outlined">menu</span></button>
+      <div class="page-title" style="margin: 0; font-size: 18px;">Dashboard</div>
+      <button class="icon-button"><span class="material-icons-outlined">notifications</span></button>
+    </header>
+
+    <main class="mobile-content">
+      <div class="page-subtitle" style="margin-bottom: var(--spacing-md);">Today at a glance</div>
+<div class="stats-grid">
+  <div class="stat-card"><div class="stat-card__value">24</div><div class="stat-card__label">Active Projects</div></div>
+  <div class="stat-card"><div class="stat-card__value">1.2k</div><div class="stat-card__label">Gallery Views</div></div>
+  <div class="stat-card"><div class="stat-card__value">.4k</div><div class="stat-card__label">Monthly Revenue</div></div>
+  <div class="stat-card"><div class="stat-card__value">18</div><div class="stat-card__label">Orders Pending</div></div>
+</div>
+
+<div class="split">
+  <div>
+    <div class="mat-card mat-card--padded">
+      <div class="mat-card__header">
+        <div>
+          <div class="mat-card__title">Upcoming Shoots</div>
+          <div class="mat-card__subtitle">Next 7 days</div>
+        </div>
+        <button class="icon-button"><span class="material-icons-outlined">event</span></button>
+      </div>
+      <div class="section">
+        <div class="user-cell"><div class="avatar">LW</div><div><div>Lake Wedding</div><div class="page-subtitle">Jan 24, 2026 ?? Lakeview Manor</div></div></div>
+      </div>
+      <div class="section">
+        <div class="user-cell"><div class="avatar">PS</div><div><div>Portrait Session</div><div class="page-subtitle">Jan 26, 2026 ?? Studio A</div></div></div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="mat-card mat-card--padded">
+      <div class="mat-card__header">
+        <div>
+          <div class="mat-card__title">Client Activity</div>
+          <div class="mat-card__subtitle">Last 24 hours</div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="chip chip--success">12 Favorites</div>
+      </div>
+      <div class="section">
+        <div class="chip chip--info">5 Comments</div>
+      </div>
+      <div class="section">
+        <div class="chip chip--warning">2 Download Requests</div>
+      </div>
+    </div>
+  </div>
+</div>
+    </main>
+
+    <nav class="mobile-nav">
+<div class="mobile-nav__item mobile-nav__item--active"><span class="material-icons-outlined">dashboard</span>Home</div>
+<div class="mobile-nav__item"><span class="material-icons-outlined">photo_library</span>Projects</div>
+<div class="mobile-nav__item"><span class="material-icons-outlined">collections</span>Galleries</div>
+<div class="mobile-nav__item"><span class="material-icons-outlined">people</span>Clients</div>
+    </nav>
+  </div>
+</body>
+</html>
