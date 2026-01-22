@@ -4,7 +4,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
   selector: 'pp-admin-theme',
   standalone: true,
   template: '<ng-content></ng-content>',
-  styleUrl: './styles/admin-ui.css',
+  styleUrls: ['./styles/admin-ui.css'],
   encapsulation: ViewEncapsulation.None,
 })
 export class PpAdminTheme {}
