@@ -13,12 +13,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="...\\PhotographerPlatform.Identity.Core\\PhotographerPlatform.Identity.Core.csproj" />
-    <ProjectReference Include="...\\PhotographerPlatform.Identity.Infrastructure\\PhotographerPlatform.Identity.Infrastructure.csproj" />
+    <ProjectReference Include="..\\PhotographerPlatform.Identity.Core\\PhotographerPlatform.Identity.Core.csproj" />
+    <ProjectReference Include="..\\PhotographerPlatform.Identity.Infrastructure\\PhotographerPlatform.Identity.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Shared\Shared.Messaging.Abstractions\Shared.Messaging.Abstractions.csproj" />
     <ProjectReference Include="..\..\Shared\Shared.Contracts\Shared.Contracts.csproj" />
   </ItemGroup>
 
 </Project>
+
+
 
 
