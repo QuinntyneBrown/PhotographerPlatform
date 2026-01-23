@@ -9,5 +9,6 @@
   <ItemGroup>
     <ProjectReference Include="..\PhotographerPlatform.Galleries.Core\PhotographerPlatform.Galleries.Core.csproj" />
     <ProjectReference Include="..\PhotographerPlatform.Galleries.Infrastructure\PhotographerPlatform.Galleries.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Shared\Shared.csproj" />
   </ItemGroup>
 </Project>

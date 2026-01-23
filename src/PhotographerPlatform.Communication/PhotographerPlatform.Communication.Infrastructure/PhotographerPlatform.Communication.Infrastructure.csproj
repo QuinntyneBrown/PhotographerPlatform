@@ -8,5 +8,6 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\PhotographerPlatform.Communication.Core\PhotographerPlatform.Communication.Core.csproj" />
+    <PackageReference Include="SendGrid" Version="9.29.1" />
   </ItemGroup>
 </Project>

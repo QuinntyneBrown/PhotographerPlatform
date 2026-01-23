@@ -2,6 +2,6 @@ using PhotographerPlatform.Workspace.Core;
 
 namespace PhotographerPlatform.Workspace.Infrastructure.Data;
 
-public sealed class PhotographerPlatform.WorkspaceContext : IPhotographerPlatform.WorkspaceContext
+public sealed class WorkspaceContext : IWorkspaceContext
 {
 }

@@ -2,6 +2,7 @@ namespace Shared.LabFulfillment;
 
 public interface ILabFulfillmentProvider
 {
+    Task<LabQuoteResult> GetQuoteAsync(LabQuoteRequest request, CancellationToken ct = default);
     Task<LabOrderResult> SubmitOrderAsync(PrintJobRequest request, CancellationToken ct = default);
     Task<LabOrderResult> GetOrderStatusAsync(string labOrderId, CancellationToken ct = default);
     Task<LabOrderResult> CancelOrderAsync(string labOrderId, CancellationToken ct = default);

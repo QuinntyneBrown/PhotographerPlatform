@@ -17,5 +17,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\src\PhotographerPlatform.Workspace\PhotographerPlatform.Workspace.Core\PhotographerPlatform.Workspace.Core.csproj" />
+    <ProjectReference Include="..\..\src\PhotographerPlatform.Workspace\PhotographerPlatform.Workspace.Infrastructure\PhotographerPlatform.Workspace.Infrastructure.csproj" />
   </ItemGroup>
 </Project>

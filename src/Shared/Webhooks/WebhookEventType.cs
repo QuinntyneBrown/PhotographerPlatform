@@ -2,6 +2,7 @@ namespace Shared.Webhooks;
 
 public enum WebhookEventType
 {
+    Unknown,
     OrderCreated,
     OrderUpdated,
     OrderFulfilled,
